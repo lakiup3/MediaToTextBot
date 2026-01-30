@@ -18,7 +18,7 @@ API_ID = 29169428
 API_HASH = "55742b16a85aac494c7944568b5507e5"
 
 BOT_TOKEN = "8391234863:AAH8CHGbd9LG22GJR_HZB1R0rtsA-RilUtI"
-WEBHOOK_URL_BASE = os.environ.get("WEBHOOK_URL_BASE", "")
+WEBHOOK_URL_BASE = os.environ.get("WEBHOOK_URL_BASE", "https://mediatotextbot-n9wa.onrender.com")
 PORT = int(os.environ.get("PORT", "8080"))
 WEBHOOK_PATH = os.environ.get("WEBHOOK_PATH", "/webhook/")
 WEBHOOK_URL = WEBHOOK_URL_BASE.rstrip('/') + WEBHOOK_PATH if WEBHOOK_URL_BASE else ""
