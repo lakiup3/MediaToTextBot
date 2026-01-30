@@ -1,0 +1,14 @@
+
+
+pyrogram==2.0.106
+tgcrypto
+pymongo
+requests
+google-genai
+flask
+pyTelegramBotAPI
+Flask
+pymongo
+google-generativeai
+requests
+dnspython
